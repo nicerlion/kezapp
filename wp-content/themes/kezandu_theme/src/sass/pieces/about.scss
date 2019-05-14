@@ -1,0 +1,297 @@
+.first-section-about {
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.title-first-sect-about {
+    text-align: center;
+    color: #ffffff;
+}
+
+.title-first-sect-about h1 {
+    font-size: 35px;
+    letter-spacing: -1px;
+    padding-bottom: 0;
+}
+
+.title-first-sect-about h5 {
+    margin: 0 0 29px;
+}
+
+.container-second-section-about {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.container-second-section-about h2 {
+    letter-spacing: -1px;
+}
+
+.block-section-about {
+    margin-bottom: 30px;
+}
+
+.About .block-section-about:last-child {
+    margin-bottom: 50px;
+}
+
+.one-box-third-sect-about {
+    color: #354389;
+    text-align: center;
+}
+
+.one-box-third-sect-about h5 {
+    margin-bottom: 18px;
+}
+
+.h3-subtitle-about {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49px;
+    margin: 0;
+}
+
+.row.row-cols-padding-none {
+    margin: 0;
+}
+
+.row.row-cols-padding-none > [class*="col"] {
+    padding: 0;
+}
+
+.img-col-about {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 215px;
+}
+
+.blue-square-corners {
+    background-color: #50bdca;
+    padding: 12px;
+    border: none;
+    font-size: 11px;
+    color: #fff;
+    width: 179px;
+    max-width: 100%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.blue-square-corners:hover {
+    color: #fff;
+}
+
+.extra-sign-about {
+    margin-bottom: 75px;
+}
+
+.sign-row {
+    text-align: center;
+    width: 430px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.sign-row h3 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-bottom: 14px;
+}
+
+.sign-row p {
+    font-size: 16px;
+    margin-bottom: 34px;
+}
+
+.sign-row .checkbox a {
+    color: #50bdca;
+}
+
+.about-container-box {
+    width: 520px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 32px;
+}
+
+.div-rounded {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 470px;
+    margin: 0 auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9;
+}
+
+.div-rounded > img {
+    width: 100%;
+}
+
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.Aligner-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.rounded-a-section-about {
+    margin-bottom: 50px;
+}
+
+.rounded-mini-about {
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+}
+
+.rounded-mini-about h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 31px;
+}
+
+span.background-on {
+    background-color: #4bbccb;
+}
+
+.cross-line-a {
+    height: 7px;
+    background-color: #e8e8e8;
+    width: 330px;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(40deg);
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 330px;
+    bottom: auto;
+    display: none;
+}
+
+.cross-line-b {
+    height: 7px;
+    background-color: #e8e8e8;
+    width: 330px;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(150deg);
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: 330px;
+    bottom: auto;
+    display: none;
+}
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width: 576px){
+	
+}
+@media only screen and (min-width:768px) {
+    .first-section-about {
+        min-height: 670px;
+        display: flex;
+        align-items: center;
+    }
+
+    .title-first-sect-about h1 {
+        font-size: 63px;
+        padding-bottom: 0;
+    }
+
+    .container-second-section-about {
+        padding-top: 66px;
+    }
+
+    .container-second-section-about h2 {
+        margin-bottom: 43px;
+    }
+
+    .h3-subtitle-about {
+        font-size: 37px;
+    }
+
+    .social-box-about {
+        margin-bottom: 57px;
+    }
+
+
+}
+@media only screen and (min-width: 992px) {
+    .rounded-a-section-about {
+        margin-bottom: 0;
+    }
+
+    .last-a-section {
+        margin-bottom: 107px;
+    }
+
+    .one-box-third-sect-about {
+        text-align: left;
+    }
+
+    .text-align-right {
+        text-align: right !important;
+    }
+
+    .cross-line-a {
+        display: block;
+    }
+
+    .cross-line-b {
+        display: block;
+    }
+}
+@media only screen and (min-width:1024px) {
+
+}
+
+@media only screen and (min-width:1140px) {
+	.cross-line-a {
+        width: 360px;
+        right: 400px;
+    }
+
+    .cross-line-b {
+        width: 360px;
+        right: 400px;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+	.cross-line-a {
+        width: 330px;
+        right: 438px;
+    }
+
+    .cross-line-b {
+        width: 330px;
+        right: 438px;
+    }
+}

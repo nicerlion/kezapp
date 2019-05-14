@@ -1,0 +1,941 @@
+.donation .first-section-pro {
+    margin-bottom: 60px;
+}
+
+.progressbar-container {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto 20px; 
+}
+
+.progressbar-donation {
+    counter-reset: step;
+    padding: 0;
+}
+
+.progressbar-donation li {
+    list-style-type: none;
+    width: 33.3333%;
+    float: left;
+    font-size: 10px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7d7d7d;
+    font-weight: 600;
+}
+
+.progressbar-donation li:after {
+    width: 20px;
+    height: 20px;
+    content: '';
+    line-height: 30px;
+    border: 2px solid #50bdca;
+    display: block;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    border-radius: 50%;
+    background-color: #50bdca;
+    z-index: 9999;
+}
+
+.progressbar-donation li:before {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #50bdca;
+    top: auto;
+    bottom: 9px;
+    left: -50%;
+    z-index: -1;
+}
+
+.progressbar-donation li:first-child:before {
+    content: none;
+}
+
+.progressbar-donation li.active {
+    color: #31448b;
+}
+
+.progressbar-donation li.active:after {
+    border: 2px solid #50bdca;
+}
+
+.progressbar-donation li.active ~ li:before {
+    background-color: #e2e3e3;
+}
+
+.second-section-donation {
+    padding-bottom: 50px;
+}
+
+.blue-button-re-container {
+    position: relative;
+}
+
+.blue-button-re-box {
+    position: absolute;
+    top: -45px;
+    right: 12px;
+}
+
+.blue-button-re {
+    text-align: center;
+    display: inline-block;
+    width: 109px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px 2px 10px -2px black;
+    box-shadow: 0px 2px 10px -2px black;
+    text-transform: uppercase;
+    font-size: 11px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    padding: 8px 10px;
+    background-color: #00cde1;
+    border: 2px solid #00cde1;
+    color: #fff;
+    border-radius: 2px;
+    text-decoration: none !important;
+    font-weight: 500;
+}
+
+.mini-box-pay-container {
+    -webkit-box-shadow: 0px 2px 10px -2px black;
+    box-shadow: 0px 2px 10px -2px black;
+    width: 330px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}    
+
+.mini-box-pay {
+    text-align: center;
+}
+
+.image-box-pay {
+    padding-bottom: 25px;
+}
+
+.mini-box-pay-content {
+    padding: 0 27px 30px;
+}
+
+.donation-mini-box-container p {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.pay-title {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0px;
+    margin-bottom: 29px;
+}
+
+.mini-box-pay .one-predet-text {
+    margin-bottom: 26px;
+}
+
+.number-pay {
+    font-size: 50px;
+    font-weight: 700;
+    color: #50bdca;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.pay-text {
+    font-size: 14px;
+    margin-bottom: 23px;
+}
+
+.pay-total {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.pay-button {
+    background-color: #454494;
+    display: inline-block;
+    color: #fff;
+    padding: 21px 11px;
+    font-size: 12px;
+    border-radius: 3px;
+    width: 270px;
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: normal;
+    margin-bottom: 31px;
+    box-shadow: 0 0 3px 0px black;
+}
+
+.pay-button:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #5e63b5;
+}
+
+.pay-button button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sup-form {
+    top: auto;
+    bottom: -7px;
+    background-color: #fff;
+    left: 5px;
+}
+
+.div-form {
+    position: relative;
+}
+
+.div-form label {
+    position: absolute;
+    top: -8px;
+    left: 5px;
+}
+
+.one-special-input {
+    padding: 16px 132px 16px 15px;
+}
+
+.quest-form {
+    margin-top: 18px;
+    margin-bottom: 4px;
+}
+
+.quest-form span {
+    color: #b0b1b6;
+    font-weight: 500;
+}
+
+.quest-form span a, .quest-form span .logout, .guest {
+    color: #50bdca;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.quest-form span a:hover, .quest-form span .logout:hover, .guest:hover {
+    text-decoration: none;
+}
+
+.mini-box-pay-text {
+    width: 310px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.mini-box-pay-text p {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 31px;
+    color: #918e96;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.mini-box-pay-text a {
+    color: #50bdca;
+}
+
+.pay-witdh {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-left: 17px;
+}
+
+.payment-container {
+    padding-top: 10px;
+    min-height: 112px;
+}
+
+#toggle-paypal {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#toggle-paypal:hover {
+    text-decoration: none;
+}
+
+.paypal-btn-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*----------------------------- CHECKBOX The container ------------------------------- */
+.container-label {
+    display: block;
+    position: relative;
+    padding: 3px 0 0 35px !important;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 13px;
+    margin-bottom: 6px;
+}
+
+.container-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+input[type="checkbox" i] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+
+/* Hide the browser's default checkbox */
+.container-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container-label:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-label input:checked ~ .checkmark {
+    background-color: #50bdca;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container-label input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-label .checkmark:after {
+    left: 7px;
+    top: 1px;
+    width: 7px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+//-------------SWITCH-----------------------------------------
+.together-box h4 {
+    display: inline-block;
+}
+
+.switch-container {
+    float: right;
+    display: inline-block;
+    margin: 5px 12px 0 0;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 14px;
+    margin: 0 0 0 0;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    left: 6px;
+    right: -11px;
+    bottom: 0px;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 21px;
+    width: 21px;
+    left: -2px;
+    bottom: -3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-shadow: 0px 0px 2px black;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 30px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+span.paypal-button-text-inactive {
+    max-width: 100%;
+    text-align: center;
+    width: auto;
+    display: block;
+    white-space: pre-wrap;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #000;
+}
+
+.paypal-button-img {
+    background-image: url(/wp-content/themes/kezandu_theme/img/paypal.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: not-allowed;
+}
+
+.paypal-button-img img {
+    visibility: hidden;
+}
+
+div.pay-button {
+    background-color: #757575;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 0;
+    padding: 10px 11px;
+    font-size: 12px;
+    border-radius: 0;
+    border: none;
+    width: 270px;
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: normal;
+    -webkit-box-shadow: 0 0 3px 0px #757575;
+    box-shadow: 0 0 3px 0px #757575;
+    cursor: not-allowed;
+    font-weight: 600;
+}
+
+div.pay-button:hover{
+    background-color: #757575;
+}
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+button.payment-method {
+    padding: 16px 42px 16px 20px;
+    font-size: 14px;
+    color: #858e99;
+    display: block;
+    width: 100%;
+    line-height: 1.25;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    text-align: left;
+    transition-duration: 0.2s;
+    position: relative;
+}
+
+.full-form button.payment-method.active {
+    color: #4d4e5a;
+}
+
+button.payment-method span {
+    position: absolute;
+    display: block;
+    right: 20px;
+    left: auto;
+    top: calc(50% - 11px);
+    bottom: auto;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #858e99;
+    transition-duration: 0.2s;
+    border-radius: 50%;
+}
+
+.full-form button.payment-method.active span {
+    border: 2px solid #4abdcb;
+}
+
+button.payment-method span::after {
+    content: '';
+    position: absolute;
+    display: block;
+    right: 50%;
+    left: auto;
+    top: 50%;
+    bottom: auto;
+    height: 0;
+    width: 0;
+    transition-duration: 0.2s;
+}
+
+.full-form button.payment-method.active span::after {
+    right: calc(50% - 5px);
+    height: 10px;
+    width: 10px;
+    top: calc(50% - 5px);
+    border-radius: 50%;
+    background-color: #4abdcb;
+}
+
+.paypal-container{ 
+    min-height: 20px;
+}
+
+.paypal-container .loader-bar {
+    display: none;
+}
+
+div#paypal-button-container:empty + .loader-bar {
+    display: block !important;
+}
+
+button.payment-method.none-button {
+    padding: 10px;
+    width: auto;
+    border: none;
+    margin: 0;
+}
+
+button.payment-method.none-button span {
+    top: 0;
+    left: 0;
+}
+
+.sign-in-donation h4 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sign-in-donation p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sign-in-donation {
+    padding: 16px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    border-radius: .25rem;
+    position: relative;
+}
+.buttun-sign-in {
+    background-color: #00cde2;
+    padding: 15px 11px;
+    border: 2px solid #00cde2;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buttun-sign-in:hover {
+    background-color: transparent;
+    color: #00cde2;
+}
+
+.buttun-sign-in-facebook {
+    background-color: #39589b;
+    border: 2px solid #39589b;
+}
+
+.buttun-sign-in-facebook:hover {
+    background-color: transparent;
+    color: #39589b;
+}
+
+span.facebook-ico {
+    background-image: url(/wp-content/themes/kezandu_theme/img/faceboook-white-social-18px.png), url(/wp-content/themes/kezandu_theme/img/faceboook-blue-social-18px.png);
+    padding: 4px 0 4px 20px;
+    background-size: auto, 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+    transition-duration: 0.2s;
+}
+
+.buttun-sign-in-facebook:hover span.facebook-ico {
+    background-image: url(/wp-content/themes/kezandu_theme/img/faceboook-blue-social-18px.png);
+    background-size: auto;
+}
+
+span.text-sign-in {
+    display: block;
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.sign-in-donation .row {
+    margin: 0 -5px !important;
+}
+
+.sign-in-donation .row [class*="col"] {
+    padding: 0 5px;
+}
+
+.sign-in-donation .loading-spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex !important;
+    background-color: rgba(147, 147, 147, 0.3);
+    z-index: 2;
+}
+
+.sign-in-donation.text-guest p {
+    margin: 0;
+    text-align: center;
+}
+
+section.thank-you {
+    padding: 100px 0;
+    background-image: url(/wp-content/uploads/2019/01/Anderson-Silva-background-op.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.thank-you-content {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 20px 0px black;
+    overflow: hidden;
+}
+
+.thank-you-header {
+    height: 150px;
+}
+
+.thank-you-boddy {
+    padding: 30px;
+}
+
+.thank-you-boddy H1 {
+    font-size: 50px;
+    margin: 0 0 20px 0;
+    color: #34418b;
+}
+
+.thank-you-successful {
+    background-color: transparent;
+    position: absolute;
+    z-index: 6;
+    display: block;
+    top: calc(50% - 54px);
+    left: calc(50% - 54px);
+    border-radius: 50%;
+    right: auto;
+    bottom: auto;
+    border: 4px solid #fff;
+    padding: 50px;
+}
+
+.thank-you-header {
+    background-color: #00cde1;
+    box-shadow: 0px 6px 2px 1px #00cde1;
+    position: relative;
+    z-index: 6;
+}
+
+.thank-you-successful:before {
+    content: '';
+    display: inline-block;
+    width: 27px;
+    height: 50px;
+    margin-right: 20px;
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 13px);
+    right: auto;
+    bottom: auto;
+}
+
+button.thank-you-button {
+    text-transform: uppercase;
+    font-size: 17px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    padding: 12px;
+    background-color: #00cde1;
+    border: 2px solid #00cde1;
+    color: #fff;
+    border-radius: 2px;
+    text-decoration: none !important;
+    -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.22);
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.22);
+    display: inline-block;
+    line-height: normal;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+.donation-facebook button {
+    width: 100% !important;
+    border-radius: 2px !important;
+    font-size: 0 !important;
+    display: block !important;
+    margin-bottom: 0 !important;
+    position: relative;
+    border: 2px solid #39589b;
+    background-color: #39589b !important;
+    transition-duration: 0.2s !important;
+    padding: 15px 11px !important;
+    border-radius: 2px;
+}
+
+.donation-facebook button:hover {
+    background-color: transparent !important;
+    color: #39589b !important;
+}
+
+.donation-facebook button::after {
+    content: "sign in" !important;
+    font-size: 11px !important;
+    width: calc(100% - 32px) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 800 !important;
+    letter-spacing: 0.6px !important;
+}
+
+.donation-facebook button::before {
+    content: "" !important;
+    background-image: url(/wp-content/themes/kezandu_theme/img/faceboook-white-social-18px.png), url(/wp-content/themes/kezandu_theme/img/faceboook-blue-social-18px.png);
+    padding: 4px 0 4px 20px;
+    background-size: auto, 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    font-size: 10px;
+}
+
+.donation-facebook button:hover::before {
+    background-image: url(/wp-content/themes/kezandu_theme/img/faceboook-blue-social-18px.png) !important;
+    background-size: auto !important;
+}
+
+.col-12.col-md-auto.donation-facebook {
+    position: inherit;
+}
+
+.content-lost-password a {
+    margin-top: 10px;
+    color: #50bdca;
+    font-size: 12px;
+    font-weight: 500;
+}
+.content-lost-password {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.message-popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 999999;
+}
+
+.message-popup-close {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #08080840;
+    z-index: 1;
+}
+
+.message-close {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.message-popup-content {
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    z-index: 3;
+    padding: 30px;
+    border: 1px solid;
+    max-width: calc(100% - 60px);
+    width: 555px;
+    box-shadow: 0 0 3px black;
+    border-radius: 3px;
+    position: relative;
+}
+
+.message-popup-content p {
+    margin: 0;
+    text-align: center;
+    color: #354389;
+}
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+    span.paypal-button-text-inactive {
+        font-size: 11px;
+    }
+
+}
+@media only screen and (min-width: 576px){
+	
+}
+@media only screen and (min-width:768px) {
+    .mini-box-pay-container {
+        margin-top: 50px;
+    }
+
+    .col-12.col-md-auto.donation-facebook .message.message-error {
+        position: absolute;
+        z-index: 0;
+        right: 0;
+        background-color: #36569d;
+        color: #fff;
+        -webkit-box-shadow: 0 0 4px 0px black;
+        box-shadow: 0 0 4px 0px black;
+        width: 205px;
+        padding: 10px;
+        font-size: 11px !important;
+        bottom: auto;
+        top: 146px;
+        right: 20px;
+    }
+
+    .col-12.col-md-auto.donation-facebook .message.message-error::after {
+        content: '';
+        position: absolute;
+        display: block;
+        font-size: 0;
+        width: 0;
+        height: 0;
+        border-right: 10px solid transparent;
+        border-top: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-bottom: 10px solid #36569d;
+        top: -20px;
+        right: 37px;
+    }
+
+    .col-12.col-md-auto.donation-facebook .message.message-error + .message-facebook-padding {
+        padding-bottom: 43px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    
+}
+@media only screen and (min-width:1024px) {
+	
+}
+@media only screen and (min-width:1140px) {
+	
+}
+@media only screen and (min-width:1280px) {
+	
+}

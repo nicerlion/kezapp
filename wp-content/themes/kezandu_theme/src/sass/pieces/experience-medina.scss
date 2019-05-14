@@ -1,0 +1,206 @@
+/*--------------------------- OTHER STYLES EXPERIENCE PAGE ----------------------*/
+.text-content-second-sect {
+    text-align: center;
+}
+
+.text-content-second-sect h2 {
+    margin-bottom: 48px;
+}
+
+.text-content-second-sect p {
+    margin-bottom: 39px;
+}
+
+.third-section-medina {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.green-medina-color{
+    color: #b5dcbc !important;
+}
+
+.fourth-section-medina .number {
+    color: #b5dcbc;
+}
+
+.fourth-section-medina .big-price a {
+    color: #b5dcbc !important;
+}
+
+.fourth-section-medina .big-number {
+    color: #b5dcbc;
+}
+
+.fourth-section-medina .one-predet-text {
+    color: #4a3587;
+}
+
+.fourth-section-medina .donate-button a {
+    background-color: #4a3587; 
+    border: 2px solid #4a3587;
+}
+
+.fourth-section-medina .donate-button a:hover {
+    color: #4a3587;
+    background-color: transparent; 
+}
+
+.fourth-section-medina .edit-profile-form a {
+    color: #b5dcbc !important;
+}
+
+.fourth-section-medina .edit-profile-form a:hover {
+    color: #b5dcbc;
+    text-decoration: underline;
+}
+
+.fourth-section-medina .edit-profile-form span {
+    color: #b5dcbc !important;
+}
+
+.fourth-section-medina .edit-profile-form span:hover {
+    color: #b5dcbc;
+    text-decoration: underline;
+}
+
+.extra-logo-third img {
+    margin: 0 auto;
+    display: block;
+}
+
+.first-extra-logo {
+    margin-bottom: 46px;
+}
+
+.play-object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.play-object-mini-box {
+    display: block;
+    margin: auto;
+}
+
+.play-object-mini-box p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.rounded-object {
+    background-color: #b5dcbc;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.rounded-object::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 34px solid #ffffff;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    display: block;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 13px);
+    right: auto;
+    bottom: auto;
+}
+
+.little-rounded-object {
+    background-color: #b5dcbc;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto 14px;
+}
+
+.little-rounded-object::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 20px solid #ffffff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    display: block;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 7px);
+    right: auto;
+    bottom: auto;
+}
+
+section.fourth-section-medina .loading-circle {
+    position: relative;
+}
+
+@media only screen and (min-width:320px) {
+    .third-section-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width: 576px){
+
+}
+@media only screen and (min-width:768px) {
+ /*----------------------------- MARGIN STYLES ----------------------*/
+    .width-470px {
+        width: 470px;
+        max-width: 100%;
+    }   
+ 
+    .width-425px {
+        width: 425px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .first-extra-logo {
+        margin-bottom: 0;
+    }
+}
+@media only screen and (min-width: 992px) {
+    
+}
+@media only screen and (min-width:1024px) {
+	
+}
+@media only screen and (min-width:1140px) {
+	
+}
+@media only screen and (min-width:1280px) {
+	
+}
+
+@media only screen and (max-width:767px) {
+    .fifth-Section {
+        display: none;
+    }
+
+    .third-section-medina {
+        background-image: none !important;
+        background-color: #454494 !important;
+    }
+    
+}

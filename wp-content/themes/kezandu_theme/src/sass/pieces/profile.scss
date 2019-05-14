@@ -1,0 +1,419 @@
+.first-section-pro {
+    text-align: center;
+}
+
+.steps-line-profile {
+    margin: auto;
+    min-width: 0;
+    width: 485px;
+    max-width: 100%;
+}
+
+.inside-steps-line-profile {
+    border-bottom: 1px solid #ededee;
+    margin-bottom: 29px;
+}
+
+.inside-steps-line-profile a {
+    color: #354389;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.inside-steps-line-profile a:hover {
+    color: #5c648e;
+    text-decoration-style: none;
+}
+
+.inside-steps-line-profile ul a {
+    color: #354389;
+    font-weight: 700;
+    margin: 0 20px 0 0px;
+    padding: 0 0 16px 0;
+    display: inline-block;
+}
+
+.inside-steps-line-profile ul .selected {
+    border-bottom: 5px solid #50bdca;
+}
+
+.inside-steps-text-profile p {
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 56px;
+    color: #918e96;
+}
+
+.steps-line-profile ul {
+    padding: 0;
+    margin: 0;
+}
+
+.steps-line-profile ul li {
+    margin: 0 20px 0 0px;
+    padding: 0 0 16px 0;
+    display: inline-block;
+    color: #354389;
+    font-weight: 700;
+}
+
+.steps-line-profile ul li.active {
+    border-bottom: 5px solid #50bdca;
+    color: #354389;
+    font-weight: 700;
+}
+
+.box-container-pro {
+    display: flex;
+    min-height: 600px;
+}
+
+.box-inside-container-pro {
+    background: #fff;
+    color: #4d4e5a;
+    font-weight: bold;
+}
+
+.container-box-485px {
+    width: 485px;
+    margin: auto;
+    min-width: 0;
+    max-width: 100%;
+    margin-bottom: 85px;
+}
+
+.subtitle-second-sec-prof-rewards {
+    margin-bottom: 40px;
+}
+
+.box-inside-container-pro .first-mini-box-pro:last-child > .form-group:last-child {
+    margin-bottom: 50px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 29px;
+}
+
+.first-mini-box-pro {
+    padding: 0 5px 11px;
+}
+
+.first-mini-box-pro h4 {
+    margin-bottom: 38px;
+}
+
+.personal-info-profile label {
+    padding: 0 5px 0;
+    background-color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.personal-info-profile button {
+    background-color: #50bdca;
+    border: 3px solid #50bdca;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    box-shadow: none;
+}
+
+button.pay-button {
+    background-color: #454494;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 11px;
+    font-size: 12px;
+    border-radius: 0;
+    border: none;
+    width: 270px;
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: normal;
+    margin-bottom: 31px;
+    -webkit-box-shadow: 0 0 3px 0px black;
+    box-shadow: 0 0 3px 0px black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.personal-info-profile input {
+    padding: 16px 20px;
+    font-size: 14px;
+    color: #858e99;
+}
+
+.personal-info-profile select {
+    padding: 16px 20px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #858e99;
+    background-color: #fff;
+    -webkit-appearance: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    height: 54px;
+}
+
+.personal-info-profile .checkbox p a {
+    font-size: 12px;
+    font-weight: 700;
+    color: #50bdca;
+    text-decoration: underline;
+}
+
+.little-thick {
+    font-size: 12px;
+    font-weight: 600;
+    color: #b7b8bc;
+}
+
+.display-inl-block {
+    display: inline-block;
+}
+
+.edit-form-button {
+    float: right;
+    display: inline-block;
+    background-color: #d6d6d9;
+    border-radius: 15px;
+    color: #fff;
+    padding: 5px 22px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+label.style-label {
+    background-color: transparent;
+}
+
+span.label-content {
+    position: relative;
+}
+
+span.label-one {
+    position: relative;
+    z-index: 2;
+}
+
+span.label-two {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    background-color: #fff;
+    height: 4px;
+    left: -5px;
+    right: -5px;
+    top: 5px;
+    bottom: auto;
+}
+
+.show-privacy-button {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel-privacy-button {
+    display: inline-block;
+    padding: 10px;
+    color: #ffa600 !important;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.edit-form-button:hover {
+    background-color: #bababd;
+}
+
+.edit-form-button:focus {
+    outline:0;
+}
+
+.edit-profile-form ul {
+    padding-left: 20px;
+}
+
+.edit-profile-form ul li {
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.edit-profile-form,
+.profile-shipping-form,
+.profile-billing-form {
+    display: none;
+}
+
+.edit-profile-info, 
+.profile-shipping-info,
+.profile-billing-info {
+    display: block;
+}
+
+section[editclass="edit-profile-info-form"] .edit-profile-form {
+    display: block;
+}
+
+section[editclass="edit-profile-info-form"] .edit-profile-info {
+    display: none;
+}
+
+[editclass='edit-profile-info-form'] .edit-form-button {
+    display: none !important;
+}
+
+[editclass='edit-shipping-info-form'] .profile-shipping-form {
+    display: block;
+}
+
+[editclass='edit-shipping-info-form'] .profile-shipping-info {
+    display: none;
+}
+
+[editclass='edit-shipping-info-form'] .edit-form-button {
+    display: none !important;
+}
+
+[editclass='edit-billing-info-form'] .profile-billing-form {
+    display: block;
+}
+
+[editclass='edit-billing-info-form'] .profile-billing-info {
+    display: none;
+}
+
+[editclass='edit-billing-info-form'] .edit-form-button {
+    display: none !important;
+}
+
+.edit-profile-detail span {
+    float: left;
+    max-width: 100%;
+    width: 140px;
+}
+
+.edit-profile-detail {
+    margin-bottom: 17px;
+}
+
+.edit-profile-detail p {
+    display: inline-block;
+    font-size: 12px;
+    line-height: normal;
+    padding-left: 35px;
+    margin-bottom: 0;
+}
+
+.button-pro-container {
+    text-align: right;
+}
+
+.cancel-form-button {
+    display: inline-block;
+    padding: 10px;
+    color: #45c3e9;
+    cursor: pointer;
+    margin-right: 15px;
+    transition-duration: 0.2s;
+}
+
+.cancel-form-button:hover {
+    opacity: 0.7;
+}
+
+button.save-form-button {
+    background-color: #45c3e9;
+    display: inline-block;
+    padding: 8px;
+    color: #fff;
+    cursor: pointer;
+    width: 135px;
+    max-width: 100%;
+    font-size: 15px;
+    transition-duration: 0.2s;
+    border: 3px solid #45c3e9;
+}
+
+button.save-form-button:hover {
+    border: 3px solid #45c3e9;
+    color: #45c3e9;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 4px -2px black;
+    box-shadow: 0px 2px 4px -2px black;
+}
+
+.Profile .first-mini-box-pro {
+    padding: 0 5px 25px;
+}
+
+button.save-form-button:focus {
+    outline:0;
+}
+
+.content-form {
+    position: relative;
+}
+
+.black-cloak {
+    position: absolute;
+    top: -14px;
+    left: -10px;
+    right: -10px;
+    bottom: 3px;
+    background-color: rgba(210, 213, 228, 0.38);
+    z-index: 9;
+    border-radius: 5px;
+}
+
+.black-cloak .loading-spinner {
+    position: absolute;
+    top: calc(50% - 28px);
+    left: calc(50% - 24px);
+    z-index: 9;
+}
+
+section[editclass="false-edit"] .black-cloak {
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+}
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width: 576px){
+	
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width: 992px) {
+    
+}
+@media only screen and (min-width:1024px) {
+	
+}
+@media only screen and (min-width:1140px) {
+	
+}
+@media only screen and (min-width:1280px) {
+	
+}
+

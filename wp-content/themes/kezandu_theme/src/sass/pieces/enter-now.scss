@@ -1,0 +1,198 @@
+.enter-container-box {
+    width: 845px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 32px;
+}
+
+.banner-section-enter {
+    width: 970px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 30px;
+}
+
+.banner-section-enter .row > .col {
+    padding: 0;
+}
+
+.banner-box-enter{
+    padding: 33px 28px 0;
+}
+
+.banner-out-box-enter {
+    margin-bottom: 50px;
+}
+
+.banner-box-enter h4 {
+    font-size: 14px;
+}
+
+.banner-box-enter h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.banner-box-enter ul {
+    list-style: none;
+    padding-left: 8px;
+    margin-bottom: 0;
+}
+
+.banner-box-enter ul li {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    padding-bottom: 22px;
+    color: #bbbcbb;
+    position: relative;
+    padding-left: 30px;
+}
+
+.banner-box-enter ul li:last-child {
+    padding-bottom: 33px;
+}
+  
+.banner-box-enter ul li:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 18px;
+    margin-right: 20px;
+    border: solid #50bdca;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    left: 0;
+  }
+
+.counter-enter {
+    background-color: #354388;
+}
+
+.counter-enter span {
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 3px;
+}
+
+.number-color .number {
+    color: #50bdca;
+}
+
+.number-color .one-predet-text {
+    color: #4a3587;
+}
+
+.number-color .donate-button a {
+    background-color: #4a3587;
+    color: #ffffff;
+    border: 2px solid #4a3587;
+}
+
+.number-color .donate-button a:hover {
+    background-color: #ffffff;
+    color: #4a3587;
+}
+
+.number-color .big-number {
+    color: #50bdca;
+}
+
+.big-price a.light-blue:hover {
+    color: #50bdca; 
+}
+
+.one-col-enter {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second-section-enter .big-price a {
+    color: #50bdca;
+}
+
+.second-section-enter .big-price a:hover {
+    color: #50bdca;
+}
+
+.second-section-enter .edit-profile-form a {
+    color: #50bdca !important;
+}
+
+.second-section-enter .edit-profile-form a:hover {
+    color: #50bdca !important;
+}
+
+.second-section-enter .edit-profile-form span {
+    color: #50bdca !important;
+}
+
+.second-section-enter .edit-profile-form span:hover {
+    color: #50bdca !important;
+}
+
+.banner-box-enter h3 br {
+    display: none;
+}
+
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width: 576px){
+	
+}
+@media only screen and (min-width:768px) {
+    .img-md-none img {
+        display: none;
+    }
+
+    .counter-enter {
+        position: absolute;
+        top: auto;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .padding-0-enter-col {
+        padding: 0;
+    }
+
+    .banner-out-box-enter {
+        box-shadow: 0 0 10px -1px black;
+    }
+}
+@media only screen and (min-width: 992px) {
+    
+}
+@media only screen and (min-width:1024px) {
+	
+}
+@media only screen and (min-width:1140px) {
+	
+}
+@media only screen and (min-width:1280px) {
+	
+}
+
+@media only screen and (max-width:767px) {
+    .img-md-none {
+       background-image: url() !important;
+    }
+}

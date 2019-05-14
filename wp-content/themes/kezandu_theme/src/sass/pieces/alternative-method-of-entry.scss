@@ -1,0 +1,21 @@
+.recaptcha-container {
+    margin-bottom: 30px;
+    margin-left: -11px;
+    margin-right: -11px;
+    text-align: center;
+}
+
+.recaptcha-content{
+    display: inline-block;
+}
+
+@media only screen and (min-width:340px) {
+
+    .recaptcha-container {
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+
+}

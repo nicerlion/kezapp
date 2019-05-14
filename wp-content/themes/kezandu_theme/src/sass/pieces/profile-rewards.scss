@@ -1,0 +1,124 @@
+.events li { 
+    display     : flex; 
+  }
+  
+  .events time { 
+    position : relative;
+    color    : #ccc;
+    padding  : 0 1.5em;  }
+  
+.events span::after { 
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -7px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #e2e3e3;
+    border-radius: 50%;
+    background-color: #e2e3e3;
+}
+
+.events .is-done span::after {
+    left: -9px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #50bdca;
+    background-color: #50bdca;
+    z-index: 9999;
+}
+
+.events .is-done span::before {
+    border-left : 2px #50bdca solid;
+}
+  
+.events .is-current span::after {
+    left: -9px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #50bdca;
+    background-color: #50bdca;
+    z-index: 9999;
+}
+
+.events .is-current span::before {
+    border-left : 2px #e2e3e3 solid;
+}
+
+.events span {
+    padding  : 0 10px 38px 40px;
+    position : relative;
+}
+  
+  .events span::before {
+     content     : "";
+     position    : absolute;
+     z-index     : 1;
+     left        : 0;
+     height      : 100%;
+     border-left : 2px #e2e3e3 solid;
+  }
+
+  .events span:not(:last-child) {
+    border : 0 !important;
+  }
+
+  .pro-span::before {
+    border : 0 !important;
+  }
+  
+  .events strong {
+     display: block;
+  }
+
+
+.step-line-container {
+    margin: 0 auto;
+    display: block;
+    width: 240px;
+    margin-bottom: 26px;
+}
+
+.accordion [aria-selected] {
+    background-image: url(/wp-content/themes/kezandu_theme/img/down-arrow.png);
+    background-position: 100% 23px;
+    background-repeat: no-repeat;
+    transition-duration: 0.1s;
+    background-size: 14px;
+}
+
+.accordion [aria-selected="true"] {
+    background-image: url(/wp-content/themes/kezandu_theme/img/up-arrow.png);
+}
+
+.pro-rew-button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width: 576px){
+	
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width: 992px) {
+    
+}
+@media only screen and (min-width:1024px) {
+	
+}
+@media only screen and (min-width:1140px) {
+	
+}
+@media only screen and (min-width:1280px) {
+	
+}
+

@@ -1,0 +1,339 @@
+.signin .first-section {
+    padding: 100px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-container-form {
+    display: flex;
+    min-height: 600px;
+}
+
+.box-inside-container-form {
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    margin: auto;
+    width: 370px;
+    max-width: 100%;
+    border-radius: 2px;
+}
+
+.signin-form button, .signin-form input[type="submit"]  {
+    background-color: #4dc4e8;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 10px -2px black;
+}
+
+.signin-form input {
+    padding: 16px 10px;
+}
+
+.signin-form .blue-button a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.signin-form .checkbox p a {
+    font-size: 12px;
+    font-weight: 700;
+    color: #50bdca;
+    text-decoration: underline;
+}
+
+.first-mini-box-form {
+    padding: 35px 30px 11px;
+    border-bottom: 1px solid #e8e8e9;
+}
+
+.first-mini-box-form h4 {
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #4d4e5a;
+}
+
+.first-mini-box-form p {
+    text-align: center;
+}
+
+.second-mini-box-form {
+    padding: 20px 30px 20px;
+    text-align: center;
+}
+
+.second-mini-box-form .checkbox span {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-weight: 400;
+    color: #b0b1b6;
+}
+
+.second-mini-box-form .checkbox span a {
+    color: #4bbcca;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+button.primary-button, input[type="submit"].primary-button, .primary-button {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    width: 100%;
+    padding: 17px 0;
+    margin-bottom: 15px;
+    background-color: #50bdca;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 14px;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
+    vertical-align: middle;
+    border: 3px solid #50bdca;
+    cursor: pointer;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 2px 10px -2px black;
+    box-shadow: 0px 2px 10px -2px black;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+button.primary-button:hover, input[type="submit"].primary-button:hover, .primary-button:hover {
+    color: #50bdca;
+    background-color: transparent;
+    -webkit-box-shadow: 0px 2px 10px -2px black;
+    box-shadow: 0px 2px 3px -2px black;
+}
+
+#loading[active="false"]{
+    display: none;
+}
+
+#loading[active="true"]{
+    display: block;
+}
+
+.message {
+    font-size: 14px !important;
+    margin: 0;
+    text-align: center !important;
+    line-height: 2;
+}
+
+.message-error {
+    color: #f00;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 15px;
+    padding-top: 7px;
+}
+
+.message-good {
+    color: #354389;
+    font-size: 18px !important;
+    text-align: center !important;
+}
+
+.message-info {
+    font-size: 14px !important;
+    line-height: normal !important;
+}
+
+.margin-b-15{
+    margin-bottom: 15px !important;
+}
+
+.first-section {
+    background-size: cover;
+    background-position: center;
+}
+
+.big-icon-box {
+    float: left;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+
+.big-icon-box a, .big-icon-box .icon-button {
+    color: #fff;
+    display: block;
+    max-width: 100%;
+}
+
+.follow-big-icon-text-box {
+    float: left;
+    min-height: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    max-width: calc(100% - 45px);
+    display: flex;
+}
+
+.follow-big-icon-text-box p {
+    margin: 0;
+    text-align: left;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    display: inline-block;
+    margin: auto 0;
+    padding-right: 15px;
+}
+
+.big-buttom-box {
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+}
+
+.content-button-box {
+    display: inline-block;
+}
+
+.button-facebook-sign-in button, .button-facebook-create-account button {
+    width: 100% !important;
+    border-radius: 5px !important;
+    -webkit-box-shadow: 1px 1px 4px -1px black !important;
+    box-shadow: 1px 1px 4px -1px black !important;
+    font-size: 0 !important;
+    display: block !important;
+    margin-bottom: 15px !important;
+    padding: 18px 52px !important;
+    position: relative;
+    border: 2px solid #39589b;
+    background-color: #39589b !important;
+    transition-duration: 0.2s !important;
+}
+
+.button-facebook-sign-in button:hover, .button-facebook-create-account button:hover {
+    background-color: transparent !important;
+    color: #39589b !important;
+}
+
+.button-facebook-sign-in button::after, .button-facebook-create-account button::after {
+    content: "sign in with facebook" !important;
+    font-size: 13px !important;
+    width: calc(100% - 32px) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 800 !important;
+    letter-spacing: 0.6px !important;
+}
+
+.button-facebook-sign-in button::before, .button-facebook-create-account button::before {
+    content: "" !important;
+    background-image: url(/wp-content/themes/kezandu_theme/img/facebook-social.png), url(/wp-content/themes/kezandu_theme/img/facebook-social-blue.png) !important;
+    padding: 13px 11px !important;
+    background-size: 35px, 0 !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-repeat: no-repeat !important;
+    display: block !important;
+    position: absolute !important;
+    top: calc(50% - 12px)!important;
+    left: 24px !important;
+}
+
+.button-facebook-sign-in button:hover::before, .button-facebook-create-account button:hover::before {
+    background-image: url(/wp-content/themes/kezandu_theme/img/facebook-social-blue.png) !important;
+    background-size: 35px !important;
+}
+
+.button-facebook-create-account button::after {
+    content: "continue with facebook" !important;
+}
+
+.button-facebook-create-account button::before {
+    left: 18px !important;
+}
+
+.button-facebook-create-account button {
+    padding: 18px 47px !important;
+}
+
+.second-mini-box-form .message.message-error {
+    margin-bottom: 15px;
+}
+
+.first-mini-box-login {
+    padding: 35px;
+    border-bottom: 1px solid #e8e8e9;
+}
+
+.first-mini-box-login h4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #4d4e5a;
+    text-align: center;
+}
+
+.first-mini-box-login p {
+    font-size: 14px;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.first-mini-box-login button.primary-button {
+    margin: 0;
+}
+
+p.another-email {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p.another-email:hover {
+    text-decoration: none;
+}
+
+.first-mini-box-login button + .message {
+    padding-top: 15px;
+}
+
+.first-mini-box-login button + .loading-spinner {
+    padding-top: 10px;
+}
+
+.first-mini-box-login button + .loading-spinner + p {
+    margin-top: 0px;
+}
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width: 576px){
+	
+}
+@media only screen and (min-width:768px) {
+
+
+}
+@media only screen and (min-width: 992px) {
+    
+}
+@media only screen and (min-width:1024px) {
+	
+}
+@media only screen and (min-width:1140px) {
+	
+}
+@media only screen and (min-width:1280px) {
+	
+}
+
